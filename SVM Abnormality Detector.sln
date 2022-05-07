@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SVM Abnormality Detector", "SVM Abnormality Detector\SVM Abnormality Detector.pyproj", "{0A571856-1C86-4E74-8956-60F85B3C5216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A571856-1C86-4E74-8956-60F85B3C5216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A571856-1C86-4E74-8956-60F85B3C5216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0878D68-94D6-472D-997B-3C3449733961}
+	EndGlobalSection
+EndGlobal
