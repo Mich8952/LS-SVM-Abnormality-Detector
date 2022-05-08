@@ -17,8 +17,9 @@ for gamm in range(1,1000000,1000):
     gamma_val.append(gamma_to_use)
 
 plt.plot(gamma_val,num_outliers)
-plt.xlabel("gamma val")
-plt.ylabel("num_outlier")
+plt.xlabel("Gamma")
+plt.ylabel("Number of Outliers")
+plt.title("Number of Outliers vs Gamma Value")
 plt.show
 
 min = min(num_outliers)
@@ -61,4 +62,9 @@ outlier_values["item #"] = idx
 outlier_values = outlier_values[['item #','x','y','z','op']].reset_index(drop = True)
 print(outlier_values)
 
+ax.set_xlabel("Dim x")
+ax.set_ylabel("Dim y")
+ax.set_zlabel("Dim z")
+
+plt.title("4D: Dim x vs Dim y vs Dim z vs Operating Position")
 plt.show()
