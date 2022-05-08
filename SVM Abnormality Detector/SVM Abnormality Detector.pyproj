@@ -24,6 +24,7 @@
     <Compile Include="SVM_Abnormality_Detector.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ls image.jpeg" />
     <Content Include="outlier plot.png" />
     <Content Include="outliers vs gamma.png" />
   </ItemGroup>
