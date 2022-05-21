@@ -1,6 +1,6 @@
 # LS-SVM-Abnormality-Detector
 This script is a sample script of a larger, more optimized, and automatic script I designed for a limit switch outlier machine developed for a company. The full script is confidential however rights were given for me to publish this sample.
-This sample uses SVM from the Scikit-Learn library
+This sample uses SVM from the Scikit-Learn library.
 
 The machine essentially allowed input of a tape roll of manufactured limit switches and tested multiple dimensions (four shown here) including that of a general x, y, z, and operating position dimension of tens of thousands of switches.
 
